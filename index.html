@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Code Compiler App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Online Code Compiler</h1>
+
+  <div class="container">
+    <select id="language">
+      <option value="0">python</option>
+      <option value="4" selected>JavaScript</option>
+      <option value="7">C</option>
+      <option value="77">C++</option>
+      <option value="8">Java</option>
+    </select>
+
+    <textarea id="code" placeholder="Write your code here..."> </textarea>
+
+    <button id="compileBtn" >Compile Code</button>
+
+    <h3>Output Console</h3>
+    <textarea id="output" placeholder="output will show here.."></textarea>
+  </div>
+
+  <script src="compile.js"></script>
+</body>
+ </html> 
